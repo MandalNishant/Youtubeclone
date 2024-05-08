@@ -1,0 +1,70 @@
+.sidebar{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    width: 72px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 999; /* Ensure the header is above other content */
+
+
+} 
+
+
+.sidebar-link{
+justify-content: center;
+display: flex;
+align-items: center;
+height: 74px;
+flex-direction: column;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.home-icon{
+    height: 24px;
+    margin-top: 25px;
+    
+    }
+    
+    .explore-icon{
+        height: 24px;
+        margin-top: 32px;
+       
+    }
+    
+    .subscription-icon{
+        height: 24px;
+        margin-top: 32px;
+        
+    }
+    
+    .originals-icon{
+    
+        height: 24px;
+        margin-top: 32px;
+    }
+
+    .ytmusic-icon{
+    
+        height: 24px;
+        margin-top: 32px;
+    }
+
+    .library-icon{
+    
+        height: 24px;
+        margin-top: 32px;
+    }
+
+    .sidebar p {
+        font-family: roboto,Arial; /* Example font-family */
+        font-size: 9px; /* Example font size */
+        margin: 5px 0; /* Example margin */
+        text-align: center;
+        color:black;
+      }
