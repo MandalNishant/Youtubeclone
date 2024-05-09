@@ -17,7 +17,7 @@ a.video-title {
 }
 
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media (min-width: 0px) and (max-width: 700px) {
     .video-grid {
       grid-template-columns: 1fr ;
     }
@@ -25,18 +25,18 @@ a.video-title {
 
 
 
-  @media (min-width: 601px) and (max-width: 900px) {
+  @media (min-width: 701px) and (max-width: 999px) {
     .video-grid {
       grid-template-columns: 1fr 1fr;
     }
   }
   
-  @media (min-width: 901px)and(max-width: 1200px){
+  @media (min-width: 1000px)and(max-width: 1500px){
     .video-grid {
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
-  @media (min-width: 1201px) {
+  @media (min-width: 1501px) {
     .video-grid {
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
